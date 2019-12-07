@@ -15,5 +15,9 @@ class TestTDD1(unittest.TestCase):#clasa
         #albo od odrazu
         #self.assertEqual(mojprogram.test_zwroc_parametr(124),124)
 
+    def test_print_hello_world(self):
+        self.assertEqual(mojprogram.print_hello_world(), 'Hello World')
+
+
 if __name__=="__main__":
     unittest.main()
